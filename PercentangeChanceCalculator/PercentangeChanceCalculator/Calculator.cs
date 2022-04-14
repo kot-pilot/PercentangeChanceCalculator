@@ -44,7 +44,7 @@
             var percentageSplittedByFractionSeparator = percentage.ToString().Split('.');
             int percentageFractionPartLength = percentageSplittedByFractionSeparator.Length > 1 ? percentageSplittedByFractionSeparator[1].Length : 0;
 
-            // multiplying random value in case for handling fractiol percentage posibilities
+            // multiplying random value for handling fractional percentage posibilities
             int randomValueMultiplier = percentageFractionPartLength + 1;
 
             int outerRandomRange = maximumPossiblePercentageValue * randomValueMultiplier;
